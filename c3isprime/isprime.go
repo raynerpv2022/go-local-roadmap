@@ -1,5 +1,5 @@
 // package main Is a prime number?
-package main
+package c3isprime
 
 import "fmt"
 
@@ -26,7 +26,8 @@ func PrintPrimeNumber(ran int) {
 	}
 	fmt.Println()
 }
-func main() {
-	PrintPrimeNumber(100)
 
-}
+// func main() {
+// 	PrintPrimeNumber(100)
+
+// }

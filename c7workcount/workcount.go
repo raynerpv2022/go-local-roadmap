@@ -1,4 +1,4 @@
-package main
+package c7workcount
 
 import (
 	"fmt"
@@ -62,19 +62,20 @@ func sortMap(map1 map[string]int) []kv {
 	return kvSlice
 
 }
-func main() {
-	WordCount(`The code for a column-span cell looks like a regular <td> cell, except for the code
-	colspan=”[number of columns to span]”. The closing tag is the same as for
-	a regular <td> cell. Notice that a <td> with the colspan feature replaces the same
-	number of regular <td>s as the number of columns that are spanned. In the first row,
-	there are three regular <td>s. In the second row, where two columns are spanned, there’s
-	one regular <td> plus the span. In the third row, where three columns are spanned, there’s
-	no regular <td>. You can make table headings span columns, too. The code is...`)
-	fmt.Println("=====================================")
-	fmt.Println("=============================================================")
 
-	WordCount(`For anyone wanting things to work like they do for Omar, I could not get
-	 it to work unless i first did $ git config credential.helper store. Note: The credentials
-	  will be saved unencrypted on a file inside your home directory, therefore use it with discretion.`)
+// func main() {
+// 	WordCount(`The code for a column-span cell looks like a regular <td> cell, except for the code
+// 	colspan=”[number of columns to span]”. The closing tag is the same as for
+// 	a regular <td> cell. Notice that a <td> with the colspan feature replaces the same
+// 	number of regular <td>s as the number of columns that are spanned. In the first row,
+// 	there are three regular <td>s. In the second row, where two columns are spanned, there’s
+// 	one regular <td> plus the span. In the third row, where three columns are spanned, there’s
+// 	no regular <td>. You can make table headings span columns, too. The code is...`)
+// 	fmt.Println("=====================================")
+// 	fmt.Println("=============================================================")
 
-}
+// 	WordCount(`For anyone wanting things to work like they do for Omar, I could not get
+// 	 it to work unless i first did $ git config credential.helper store. Note: The credentials
+// 	  will be saved unencrypted on a file inside your home directory, therefore use it with discretion.`)
+
+// }

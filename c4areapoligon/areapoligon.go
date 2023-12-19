@@ -1,28 +1,28 @@
-package main
+package c4areapoligon
 
 import "fmt"
 
-type triangle struct {
+type Triangle struct {
 	h float64
 	b float64
 }
 
-type square struct {
+type Square struct {
 	a float64
 }
 
-type rectangle struct {
+type Rectangle struct {
 	a float64
 	b float64
 }
 
-func (t triangle) area() float64 {
+func (t Triangle) area() float64 {
 	return t.b * t.h / 2
 }
-func (s square) area() float64 {
+func (s Square) area() float64 {
 	return s.a * s.a
 }
-func (r rectangle) area() float64 {
+func (r Rectangle) area() float64 {
 	return r.a * r.b
 }
 
@@ -35,11 +35,12 @@ func Areapol(shape AreaPoligonos) {
 	fmt.Printf("%T %v:\n", shape, shape.area())
 
 }
-func main() {
-	t := triangle{2.3, 4.4}
-	q := square{3.3}
-	r := rectangle{3.3, 6.6}
-	Areapol(t)
-	Areapol(q)
-	Areapol(r)
-}
+
+// func main() {
+// 	t := triangle{2.3, 4.4}
+// 	q := square{3.3}
+// 	r := rectangle{3.3, 6.6}
+// 	Areapol(t)
+// 	Areapol(q)
+// 	Areapol(r)
+// }
