@@ -1,0 +1,12 @@
+{
+ "name": "Petra",
+ "age": "23",
+ "cumple": "1.1.1900",
+ "language": {
+  "Item": [
+   "Python",
+   "PASCAL",
+   "JAVA"
+  ]
+ }
+}
